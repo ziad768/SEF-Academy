@@ -5,7 +5,7 @@
             "dest":"/"
         },
         {
-            "src":"/articles/:Filter",
+            "src":"/articles/:filter",
             "dest":"/"
         },
         {
