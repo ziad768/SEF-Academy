@@ -1,0 +1,244 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  box-shadow: 0 0 0 0 !important;
+  outline: none ;
+}
+
+.BackgroundImage {
+  background-image: url('./image/wp5709278-hacker-desktop-4k-wallpapers.jpg');
+  background-repeat: no-repeat;
+  background-size:   100%; 
+  color: white;
+  background-color:  rgba(27, 26, 23, 0.5) ;
+}
+
+.overlay {
+  background-image: linear-gradient( rgba(27, 26, 23, 0.7) ,rgb(27, 26, 23));
+  height: 100%;
+}
+
+.btnReponsive {
+  width: 150px !important;
+  background-color: rgba(190, 154, 48, 255) !important;
+  color: white !important;
+}
+
+input, textarea, select {
+  background-color: #d0d0d077 !important;
+  padding: 8px;
+  color: white !important;
+  border: none   !important;  
+  outline: none   !important; 
+  resize: none !important;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+textarea::-webkit-scrollbar
+{
+    display: none;
+}
+
+.information div {
+  margin-bottom: 15px;
+}
+
+.about {
+  margin-top: 15px;
+}
+
+
+@media(max-width:768px) {
+
+  .info {
+    margin-top: 10px !important;
+  }
+
+}
+option{
+  background-color: #696968 ;
+}
+th,td{
+  background-color: transparent !important ;
+  color: white !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rights {
+  width: 20%;
+}
+.bg {
+  
+  background-color: rgba(26, 26, 26, 0.50);
+}
+
+.bg-warning {
+  background-color: hsla(45, 60%, 47%, 0.500) !important;
+
+}
+
+.photo img {
+  position: relative;
+  height: 100vh;
+}
+
+.con {
+  font-size: 14px;
+  color: #d0d0d0;
+
+  margin-bottom: 7px;
+}
+
+.date {
+  margin-top: 6px;
+}
+
+.line {
+  width: 70px;
+  height: 1px;
+  background-color: #bf9b30;
+}
+
+.student-name {
+  color: #bf9b30;
+}
+
+.view {
+  background-color: #bf9b30;
+  color: #d0d0d0 !important;
+  border: none;
+  margin-left: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+
+}
+
+.tex {
+  font-size: 34px;
+}
+
+.view:hover {
+  background-color: #f7cf55;
+}
+
+.box {
+  width: 75px;
+  height: 75px;
+  text-align: center;
+
+}
+
+.allclear {
+  background-color: #d0d0d0c8;
+}
+
+.icon1 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: solid 2px white;
+  text-align: center;
+}
+
+.courses {
+  margin: 25px 0;
+  background-color: #1a1a1a;
+}
+
+.instructor {
+  color: #bf9b30;
+}
+
+.instructor span {
+  color: #d0d0d0;
+}
+
+.details {
+
+  background-color: #bf9b30;
+  color: #d0d0d0;
+  border: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  width: 140px;
+  display: block;
+}
+
+.details:hover {
+  background-color: #fcce44;
+}
+
+.day {
+  width: 90px;
+  margin-top: 15px;
+}
+
+.p2 {
+  margin-top: -25px;
+}
+
+.day1 {
+  padding: 10px 0 0px;
+  background-color: #bf9b30;
+  color: #d0d0d0;
+}
+
+.p3, .p4 {
+  margin-top: -10px;
+}
+
+.certificate {
+  background-color: #1a1a1a;
+
+}
+
+.in {
+  color: #bf9b30;
+}
+
+.file-down {
+  background-color: #bf9b30;
+  color: #d0d0d0;
+  border: none;
+  margin-left: auto;
+}
