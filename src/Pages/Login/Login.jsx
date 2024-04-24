@@ -10,7 +10,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import { useFormik } from "formik";
 import { LoginUser } from "../../Redux/reducer/Users";
-import { ModelLogin } from "../../Components/ModelLogin.jsx";
+import  ModelLogin  from "../../Components/ModelLogin.jsx";
 import { useDispatch, useSelector } from "react-redux";
 
 const Login = () => {
