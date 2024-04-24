@@ -10,6 +10,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import { useFormik } from "formik";
 import { LoginUser } from "../../Redux/reducer/Users";
+import { ModelLogin } from "../../Components/ModelLogin.jsx";
 import { useDispatch, useSelector } from "react-redux";
 
 const Login = () => {
@@ -41,6 +42,7 @@ const Login = () => {
 
   return (
     <div className="container-fluid " style={{marginTop:'100px',minHeight:'50vh'}}>
+      <ModelLogin/>
       <form className="col-11 col-md-8 col-xl-4 m-auto rounded-3 bg-dark opacity-75 pb-3  "  onSubmit={formik.handleSubmit}>
         <div className="m-auto">
           <img
