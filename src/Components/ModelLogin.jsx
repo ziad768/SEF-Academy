@@ -3,6 +3,9 @@ import React from 'react'
 function ModelLogin() {
   return (
     <>
+      <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Launch demo modal
+</button>
 <div className="modal fade" id="exampleModalCenter" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="false">
   <div className="modal-dialog modal-dialog-centered" role="document">
     <div className="modal-content">
