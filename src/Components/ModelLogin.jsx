@@ -8,7 +8,7 @@ function ModelLogin() {
         <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body text-dark">
         Admin Account : dl-2851 <br/>
         Admin Password : 12345678
         <br/>
