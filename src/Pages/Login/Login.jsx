@@ -123,6 +123,10 @@ const Login = () => {
             type="submit"
             placeholder="Login"
             onSubmit={handleSubmit}>Login</button>
+          <button type="button" className="col-10 d-block m-auto fs-5 btn-cv fw-bold my-5 border-0 py-2 rounded-2 text-white"
+            style={{ outline: "none" }} data-bs-toggle="modal" data-bs-target="#exampleModal ">
+  Account ID
+</button>
         </div>
       </form>
     </div>
